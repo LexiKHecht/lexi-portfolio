@@ -14,5 +14,8 @@ No special requirements
 Wavy PNGs by Vecteezy https://www.vecteezy.com/free-png/wavy
 
 ## Review
+- https://github.com/LexiKHecht/lexi-portfolio
+- https://lexikhecht.github.io/lexi-portfolio/
+
 ![Screenshot (18)](https://github.com/LexiKHecht/lexi-portfolio/assets/145725343/9e95eaca-8537-4d22-90f0-9cffde1bb716)
 
