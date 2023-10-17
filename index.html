@@ -6,3 +6,77 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Lexi's Portfolio</title>
 </head>
+
+<body>
+    <header class="header">
+        <nav id="navbar">
+            <ul id="menu">
+                <li>
+                    <a href="#about">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#work">WORK</a>
+                </li>
+                <li>
+                    <a href="#contact">CONTACT</a>
+                </li>
+            </ul>
+        </nav>
+     <section class="HI">
+         <h1>I AM LEXI</h1> 
+     </section>
+    </header>
+    
+    <!-- photo of me -->
+    </div>
+    <section class="content">
+        <article id="about" class="main">
+            <img src="./assets/images/me.jpg" alt="table with office supplies, a commpter, a cup of coffee, and a notebook" class="float-left" />
+            <h2>About Me</h2>
+            <p>
+                I like bugs and birds, I am a bad driver, I cook well. I like to hike, fish, and kayak. I've spoent more time on video games then i'd like to admit. I have four pets; three are dog and one is a gecko.  
+            </p>
+        </article>
+        <article id="work" class="main">
+            <a href=" https://lexikhecht.github.io/code-refactor/"><img src="./assets/images/Screenshot (5).png" alt="buisness website" class="float-right" id="smaller-picture"/></a>
+            <a href="https://lexikhecht.github.io/mini-project-cat/"><img src="./assets/images/Screenshot (6).png" alt="poorly craeted website with cat picture" class="float-right" id="bigger-picture"/></a>
+            <h2>My work</h2>
+            <p>
+                I have just started my web coding journey and have two imaculate, high-quality projects that are sure to impress even the most experienced coder! Take a look and be <em>amazed!</em> 
+            </p>
+            <ul>
+                <li><u>Cat Website</u> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <u>Refactored Website</u></li>
+            </ul>
+        </article>
+        <article id="contact" class="main">
+            <h2>Contact me</h2>
+            <p>
+                I don't have many social yet but for the time being you can contact me via email.
+            </p>
+            <p> 
+                <strong>Email:</strong> <a id="" href="#">someplace@gmail.com</a>
+            </p>
+        </article>
+    </section>
+    <footer class="footer">
+        <h2>💜️ 💜 💜</h2>
+    </footer>
+
+<script>
+    var navbar = document.getElementById("navbar")
+    var menu = document.getElementById("menu")
+
+    window.onscroll = function(){
+        if(window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+
+</body>
+
+</html>
